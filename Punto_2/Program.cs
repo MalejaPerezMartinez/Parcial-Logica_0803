@@ -29,9 +29,11 @@ internal class Program
 
         // Conversión de minutos a horas y fracción de hora
 
-        tiempt = tiempt / 60; // hora
-        alcanzar=
-        
+        long horatiempt = tiempt / 60; // hora
+        long mintiempot = tiempt % 60;// minutos
+
+        Console.WriteLine(horatiempt + mintiempot);
+
 
 
     }
