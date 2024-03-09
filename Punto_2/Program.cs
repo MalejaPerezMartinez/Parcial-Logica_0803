@@ -24,6 +24,12 @@ internal class Program
         horaa = horab * 60;
         dif= horab-horaa;// diferencia en tiempo tren B vs Tren A
         double distancia = dif / (60 * vela);// Distancia entre los dos trenes
-        double alcanzar = distancia / (vela * velb);//
+        double alcanzar = distancia / (vela * velb);// Tiempo que tomara en alcanzar Tren A a B
+        double tiempt = horab + alcanzar;// minutos totales en alcanzar
+
+        // Conversion de minutos a horas y fraccion de hora
+
+
+
     }
 }
