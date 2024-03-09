@@ -32,7 +32,7 @@ internal class Program
         long horatiempt = tiempt / 60; // hora
         long mintiempot = tiempt % 60;// minutos
 
-        Console.WriteLine(horatiempt + mintiempot);
+        Console.WriteLine(\"Tiempo de alcance es:"+ horatiempt + mintiempot);
 
 
 
