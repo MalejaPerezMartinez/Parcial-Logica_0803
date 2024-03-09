@@ -13,40 +13,40 @@ public class Program
         v1 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Ingrese el valor de la segunda venta:");
         v2 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Ingrese el valor de la primera venta:");
+        Console.Write("Ingrese el valor de la tercera venta:");
         v3 = Convert.ToDouble(Console.ReadLine());
 
         totalv=(v1 + v2 + v3);
         comi = totalv*0.10;
         sueldo=comi+sueldo;
         prom = comi / 3;
-        Console.Write("El valor de la comision es: " + comi);
-        Console.Write("El valor total del suelo es: " + sueldo);
-        Console.Write("El valor promedio x comision es: " + prom);
+        Console.Write("\nEl valor de la comisión es: " + comi);
+        Console.Write("\nEl valor total del suelo es: " + sueldo);
+        Console.Write("\nEl valor promedio x comisión es: " + prom);
 
 
 
         if ((v1> v2) && (v2 > v3))
         {
-            Console.Write("La máxima venta es:" + v1);
+            Console.Write("\nLa máxima venta es la primera:" + v1);
         }
         else if (((v2 > v3) && (v3 > v1)))
         {
-            Console.Write("La máxima venta es " + v2);
+            Console.Write("\nLa máxima venta es la segunda " + v2);
         }
         else
         {
-            Console.Write("La máxima venta es " + v3);
+            Console.Write("\nLa máxima venta es la tercera" + v3);
         }
 
 
         if (totalv>1000000)
       
-            Console.Write("Gano Benecifio");
+            Console.Write("\nGano Benecifio");
 
         else
         {
-            Console.Write("No Gano Beneficio");
+            Console.Write("\nNo Gano Beneficio");
         }
 
     }
